@@ -1,0 +1,9 @@
+<view class="container">
+  <button class="scan" type="primary" bindtap="goToScan">扫一扫</button>
+  <view class="result">结果：</view>
+  <view class="textbox">
+    <text user-select>{{retcode}}</text>
+  </view>
+  
+</view>
+

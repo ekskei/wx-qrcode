@@ -1,0 +1,19 @@
+/* pages/more/more.wxss */
+.result{
+  margin-left: 50rpx;
+  margin-top: 50rpx;
+  font-weight: 800;
+}
+
+.textbox{
+  word-break:break-all;
+  margin: 15rpx;
+  height: 300rpx;
+  padding: 15rpx;
+  text-align: left;
+  border: 1rpx solid #1CC163;
+}
+
+.scan{
+  margin-top: 50rpx;
+}

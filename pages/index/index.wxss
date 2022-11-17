@@ -1,0 +1,26 @@
+/**index.wxss**/
+.input-wrapper {
+  margin: 40rpx auto 0 auto;
+  width: 660rpx;
+  height: 300rpx;
+  border: 2rpx solid #ddd;
+  border-radius: 16rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+
+.input-wrapper input {
+  font-size: 32rpx;
+  line-height: 88rpx;
+  height: 100%;
+}
+
+.button-wrapper {
+  margin-top: 30rpx;
+}
+
+canvas {
+  margin: 60rpx auto;
+  width: 200px;
+  height: 200px;
+}

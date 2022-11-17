@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "二维码工具",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#1CC163",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "static/icon/home.png",
+      "selectedIconPath": "static/icon/homefill.png" 
+    }, {
+      "pagePath": "pages/more/more",
+      "text": "扫一扫",
+      "iconPath": "static/icon/my.png",
+      "selectedIconPath": "static/icon/myfill.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+  },
+  "permission": {
+  },
+  "lazyCodeLoading": "requiredComponents"
+}

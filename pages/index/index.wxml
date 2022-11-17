@@ -1,0 +1,10 @@
+<view class="container">
+  <view class='input-wrapper'>
+    <textarea bindinput='inputHandler' bindconfirm='confirmHandler' placeholder='输入需要转换为二维码的字符串' value='{{text}}'>
+    </textarea>
+  </view>
+  <view class='button-wrapper'>
+    <button type="primary" bindtap='tapHandler'>转为二维码</button>
+  </view>
+  <canvas type="2d" id='myCanvas' bindlongtap='save'></canvas>
+</view>
